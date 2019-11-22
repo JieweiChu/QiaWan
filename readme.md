@@ -1,6 +1,5 @@
-# Dynamic Price Feature - Yelp Camp
+# QiaWan
 
-## Steps
-- Add price to campground model as a String datatype
-- Add price to views/campgrounds/new.ejs and views/campgrounds/edit.ejs (new and edit forms)
-- Add price to views/camprounds/show.ejs (campground show page)
+## Points
+- This is a simple food and play recommandation web development.
+- Based on Node.js
