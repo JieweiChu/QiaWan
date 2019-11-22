@@ -16,7 +16,7 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
  
-var url = process.env.DATABASEURL || "mongodb+srv://devsprout:HbGjJg9EtoHYMPu4@cluster0-vbskh.mongodb.net/test?retryWrites=true&w=majority";
+var url = process.env.DATABASEURL || "mongodb+srv://devsprout:your_password@cluster0-vbskh.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(url , { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
